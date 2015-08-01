@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title></title>
+	
+	<link rel="stylesheet" type="text/css"  href="css/style_form.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    
+</head>
+<body>
+<div style="position:fixed; width:100%; height:90px; background:#FFF; z-index:5; top:-10px;">
+<h4 style="position: fixed; z-index:8; margin:40px 27%; width:700px;">ЗАЯВЛЕНИЕ НА ЭКСПЕДИРОВАНИЕ<p>Бланк необходимо заполнить и отправить до 15:00, за день до забора груза.</p></h4></div>
+<div id="car">
+<div style="position:relative; width:200px; height:350px; top:200px; left:165px;">
+<p><a href="index.html">Вернуться на сайт</a></p>
+<p><a href="documents/zayavka.xls">Скачать бланк</a></p>
+<p><a href="documents/upakovka.doc">Скачать требования<br /> к упаковке</a></p>
+<br />
+<br />
+
+<p style="position:relative; left:-15px;"><b>Контакты:<br />тел/факс:+7 (812)334-98-79<br />телефон: +7 (911)908-70-11<br />e-mail:9119087011@mail.ru</b></p>
+</div>
+</div>
+<div class="logo1"></div>
+<div style="position: fixed; left:77%; top:20px; width:290px; height:95%; z-index:50">
+<h4 style="margin:20px 20px; font-size:14px;">ТАРИФЫ И УСЛОВИЯ:</h4>
+<p>До 1500 кг и 9 м<sup>3</sup> стоимость машины 500 руб/час; свыше - 800 руб/час. </p>
+<p style="width:290px;">Оплата почасовая. Расчет начинается с момента выезда машины со склада транспортной компании и заканчивается в момент её возвращения на склад.</p>
+<p>Нормативный простой автомобиля под загрузкой определяется из расчета 1т - 30 мин.</p>
+<p>Погрузка силами отправителя.</p>
+<p>Груз принимается в упакованном виде. Каждое отдельное место должно быть подписано.</p>
+<p>Водитель-экспедитор пересчитывает места, проверяет целостность упаковки и наличие маркировки. Передача груза осуществляется на основании доверенности, в которую вписывается общее количество мест.</p>
+<p>Если в заявлении указаны недостоверные сведения о готовности груза, не выполняются условия передачи багажа, счет будет выставлен за  холостой пробег  автомобиля.</p>
+</div>
+	 
+	<div id="container">
+    
+        <form action="mail.php" method="post" onsubmit="return checkForm(this);" enctype='multipart/form-data'>
+	
+         
+                <h1>Характеристики груза:</h1>
+              <label for="punkt_naznacheniya" style="position:relative; left:20px;">Доставка в город:</label>
+           <select name="punkt_naznacheniya" style=" position:relative; left:70px; width:328px;">
+            <option >Выберите из списка...</option>
+                 <option>Апатиты</option>
+                     <option>Архангельск</option>
+                      <option>Брянск</option>
+                       <option>Великий Устюг</option>
+                        <option>Вельск</option>
+                         <option>Вологда</option>
+                          <option>Кандалакша</option>
+                          <option>Киров</option>
+                           <option>Котлас</option>
+                            <option>Мончегорск</option>
+                             <option>Мурманск</option>
+                              <option>Нижний Новгород</option>
+                               <option>Пермь</option>
+                               <option>Петрозаводск</option>
+                               <option>Плесецк</option>
+                               <option>Северодвинск</option>
+                               <option>Смоленск</option>
+                               <option>Сыктывкар</option>
+                               <option>Ухта</option>
+                               <option>Череповец</option>
+              </select>
+              <div style=" clear:left; ">  </div>
+             <label for="naimenovanie" style="position:relative; left:20px;">Наименование груза: </label>
+             <input name="naimenovanie" type="text"  style="position:relative; left:50px; width:320px;" value="" />
+             <div style=" clear:left; ">  </div>
+             <label for="upakovka" style="position:relative; left:20px;">Вид упаковки:</label>
+             <input name="upakovka" type="text_forma" style="position:relative; left:90px; width: 320px" value="" />
+             <div style=" clear:left; ">  </div>
+             <label for="mesta" style="position:relative; left:20px;">Общее количество мест:</label>
+             <input name="mesta" type="text_forma" style="position:relative; left:50px; width: 60px" value="" />
+             <div style=" clear:left; ">  </div>
+              <label for="ves" style="position:relative; left:20px;">Общий вес (кг):</label>
+             <input name="ves" type="text_forma" style="position:relative; left:30px; width: 80px" value="" />
+          <label for="obyem" style="position:relative; left:80px;">Общий объем (м3):</label>
+          <input name="obyem" type="text_forma" style="position:relative; left:90px; width:80px" value="" />
+          <div style=" clear:left; ">  </div><br />
+          <div style=" position:relative; left:20px; width:250px; height:20px; font-family:Arial, Helvetica, sans-serif; font-size:14px;"><b>МАКСИМАЛЬНЫЕ ГАБАРИТЫ:</b></div>
+          <label for="maxdlina" style="position:relative; left:20px;">Длина (м):</label>
+          <input name="maxdlina" type="text_forma" style="position:relative; left:20px; width: 60px" value="" />
+         <label for="maxshirina" style="position:relative; left:40px;">Ширина (м):</label>
+         <input name="maxshirina" type="text_forma" style=" position:relative; left:40px; width: 60px" value="" />
+         <label for="maxvysota" style="position:relative; left:60px;">Высота (м):</label>
+         <input name="maxvysota" type="text_forma" style="position:relative; left:60px; width: 60px" value="" />
+<div style=" clear:left; "></div>
+		<label for="cena" style="position:relative; left:20px;">Оцените груз (сумма прописью в руб.): </label>
+         <input name="cena" type="text_forma" style=" position:relative; left:30px; width: 200px" value="" />
+<div style=" clear:left; ">  </div>
+         <label for="sposob" style="position:relative; left:20px;">Выберете способ погрузки:</label>
+         <select name="sposob" style=" position:relative; width: 180px; font-family: Arial, Helvetica, sans-serif; font-size:12px; left:30px;">
+			<option>Выберите из списка...</option>
+              <option>Задняя</option>
+              	<option>Боковая</option>
+                <option>Верхняя</option>
+              		</select>
+
+             
+                <h1>Информация об отправителе:</h1>
+
+     
+                	<label for="otpravitely" style="position:relative; left:20px;">Название организации или ФИО:</label>
+                    <input name="otpravitely" type="text_forma" style="position:relative; left:30px; width: 320px" value="" />
+<div style=" clear:left; ">  </div>
+					<label for="tel" style="position:relative; left:20px;">Телефон:</label>
+                    <input name="tel" type="text_forma" style=" position:relative; left:30px; width:160px" value="" />
+
+					<label for="kontakt_1" style="position:relative; left:50px;">Контактное лицо:</label>
+					<input name="kontakt_1" type="text_forma" style=" position:relative; left:60px; width: 160px" value="" />
+<div style=" clear:left; ">  </div>
+					<label for="Adres_1" style="position:relative; left:20px;">Адрес забора груза в Санкт-Петербурге:</label><div style=" clear:left; ">  </div>
+					<input name="Adres_1" type="text_forma" style=" position:relative; left:20px; width: 550px" value="" />
+
+<div style=" clear:left; ">  </div>
+
+<!--<label for="files1" style="position:relative;left:20px;">Схема проезда:</label> 
+           
+           <input type="file" name="files1"  size="10" style="position:relative; left:30px; width: 320px" value=""/> 
+<div style=" clear:left; ">  </div>	
+
+
+<label for="files2" style="position:relative;left:20px;">Доверенность:</label> 
+           
+           <input type="file" name="files2"  size="10" style="position:relative; left:30px; width: 320px" value=""/> 
+<div style=" clear:left; ">  </div>	 -->		
+                       
+                        <label for="t1" style="position:relative; left:20px;">Режим работы: с</label>
+                       <input name="t1" type="text_forma" style=" position:relative; left:20px; width: 50px" value="" />
+                        <label for="t2" style="position:relative; left:50px;">до</label>
+        			   <input name="t2" type="text_forma" style=" position:relative; left:50px; width: 50px" value="" />
+                       <label for="t3" style="position:relative; left:100px;">обед: с</label>
+         			   <input name="t3" type="text_forma" style=" position:relative; left:100px; width: 50px" value="" />
+                       <label for="t4" style="position:relative; left:120px;">до</label>
+                       <input name="t4" type="text_forma" style=" position:relative; left:120px; width: 50px" value="" />
+<div style=" clear:left; ">  </div>
+						 
+                      <label for="t5" style="position:relative; left:20px;">Готовность груза: дата</label>                       
+                      <input name="t5" type="text_forma" style=" position:relative; left:20px; width: 120px" value="" />
+                     <label for="t6" style="position:relative; left:100px;">Время:</label> 
+                      <input name="t6" type="text_forma" style=" position:relative; left:100px; width: 100px" value="" />
+                       
+           
+
+           
+                <h1>Информация о получателе:</h1>
+
+         
+                   <label for="kontakt_2" style="position:relative; left:20px;">Название организации или ФИО:</label>
+                   <input name="kontakt_2" type="text_forma" style=" position:relative; left:30px; width: 320px" value="" /> 
+ <div style=" clear:left; ">  </div>
+ 
+ <label for="tel_2" style="position:relative; left:20px;">Телефон:</label>
+                    <input name="tel_2" type="text_forma" style=" position:relative; left:30px; width:160px" value="" />
+
+					<label for="kontakt" style="position:relative; left:50px;">Контактное лицо:</label>
+					<input name="kontakt" type="text_forma" style=" position:relative; left:60px; width: 160px" value="" />
+                    
+ 
+ 
+ 
+ 					
+<div style=" clear:left; ">  </div>
+					 <label for="dostavka" style="position:relative; left:20px;">Посылку доставить до дверей получателя?</label>
+					<select name="dostavka" style="position:relative; width: 180px; font-family: Arial, Helvetica, sans-serif; font-size:12px; left:50px;">
+							<option>Выберите из списка...</option>
+              				<option>Да</option>
+              				<option>Нет</option>
+              		</select>
+<div style=" clear:left; ">  </div>
+						<label for="dostavka_1" style="position:relative; left:20px;">... если нужна доставка, укажите адрес:</label>
+                        <div style=" clear:left; ">  </div>
+					<input name="dostavka_1" type="text_forma" style=" position:relative; left:20px; width: 550px" value="" />
+						
+<div style=" clear:left; ">  </div>
+
+ 					
+                 
+                     
+                <h1>Оплата перевозки:</h1>
+
+              
+                <label for="plat" style="position:relative; left:20px;">Кто оплачивает перевозку?</label>
+                 <select name="plat" style="position:relative; width: 390px; font-family: Arial, Helvetica, sans-serif; font-size:12px; left:30px;">
+                      <option>Выберите из списка...</option>
+                      <option>Отправитель</option>
+                      <option>Получатель</option>
+                     <option>Другое лицо</option>
+                     <option>Отправитель-экспедирование, получатель перевозку</option>
+              </select>  
+<div style=" clear:left; ">  </div>
+				<label for="plat_1" style="position:relative; left:20px;">Плательщик, в случае другое лицо:</label>
+				<input name="plat_1" type="text_forma" style="position:relative; left:30px; width: 332px" value="" />
+<div style=" clear:left; ">  </div> 
+				 <label for="forma_plat" style="position:relative; left:20px;">Форма оплаты:</label>
+               <select name="forma_plat" style="position:relative; width: 250px; font-family: Arial, Helvetica, sans-serif; font-size:12px; left:30px;">
+                 <option style="width: 365px">Выберите из списка...</option>
+                 <option>Нал (только для отправителя)</option>
+                 <option>Безнал</option>
+              </select>
+<div style=" clear:left; ">  </div> 
+ <h1>Контактные данные:</h1>
+				<label for="name" style="position:relative; left:20px;">Ваше имя:</label>
+				<input  name="name"   type="text_forma" style=" position:relative; left:60px; width: 250px"  value="" />
+<div style=" clear:left; ">  </div>
+                <label for="email" style="position:relative; left:20px;">Ваш e-mail:</label>
+                <input name="email" type="text_forma" style=" position:relative; left:55px; width: 250px"  value="" />
+<div style=" clear:left; ">  </div>
+                <label for="phone" style="position:relative; left:20px;">Ваш телефон:</label>
+                <input name="phone" type="text_forma" style=" position:relative; left:38px; width: 250px"  value="" />           
+             <div style=" clear:left; ">  </div>  
+               <label for="comments" style="position:relative; left:20px;">Комментарии, пожелания:</label>     
+              <textarea rows="5"  cols="50" class="text" style=" position:relative; width: 365px; left:20px; top:40px;" name="comments"></textarea>  
+        <div style=" clear:left; ">  </div>        
+             <input type="submit"  style=" position:relative; left:50%; top:70px;" value="Отправить заказ"  />
+        </form>
+	</div>
+	
+    
+
+	
+</body>
+</html>

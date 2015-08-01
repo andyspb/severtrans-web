@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+<title>Севертранс грузоперевозки по Северо-Западу</title>
+<link href="http://code.jquery.com/mobile/1.0a3/jquery.mobile-1.0a3.min.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css1/styles.css">
+<script src="http://code.jquery.com/jquery-1.5.min.js" type="text/javascript"></script>
+<script src="http://code.jquery.com/mobile/1.0a3/jquery.mobile-1.0a3.min.js" type="text/javascript"></script>
+</head>
+<body>
+<div data-role="page">
+  <div data-role="header">
+  <b>ЗАЯВЛЕНИЕ</b>
+  </div>
+<div data-role="content">
+    <form action="mail.php" method="post" target="_self">
+     <fieldset data-role="fieldcontain">
+        <label>Пункт назначения:</label>
+        <select name="punkt_naznacheniya">
+                <option value="1">Апатиты</option>
+                     <option value="2">Архангельск</option>
+                      <option value="3">Брянск</option>
+                       <option value="4">Великий Устюг</option>
+                        <option value="5">Вельск</option>
+                         <option value="6">Вологда</option>
+                          <option value="7">Кандалакша</option>
+                          <option value="8">Киров</option>
+                           <option value="9">Котлас</option>
+                            <option value="10">Мончегорск</option>
+                             <option value="11">Мурманск</option>
+                              <option value="12">Нижний Новгород</option>
+                               <option value="13">Пермь</option>
+                               <option value="14">Петрозаводск</option>
+                               <option value="15">Плесецк</option>
+                               <option value="16">Северодвинск</option>
+                               <option value="17">Смоленск</option>
+                               <option value="18">Сыктывкар</option>
+                               <option value="19">Ухта</option>
+                               <option value="20">Череповец</option></select></fieldset>
+                               
+                               <div data-role="fieldcontain">
+              <p><label for="naimenovanie">Наименование груза: </label>
+             <input name="naimenovanie" type="text" value="" /></p>
+              <p><label for="upakovka">Вид упаковки:</label>
+             <input name="upakovka" type="text_forma" value="" /></p>
+             <p><label for="mesta">Количество мест:</label>
+             <input name="mesta" type="text_forma" value="" /></p>
+              <p><label for="ves">Общий вес (кг):</label>
+             <input name="ves" type="text_forma" value="" /></p>
+           <p><label for="obyem">Общий объем (м3):</label>
+          <input name="obyem" type="text_forma" value="" /></p>
+       
+          <b>Максимальные габариты:</b>
+          <p><label for="maxdlina">Длина (м):</label>
+          <input name="maxdlina" type="text_forma" value="" /></p>
+         <p><label for="maxshirina">Ширина (м):</label>
+         <input name="maxshirina" type="text_forma" value="" /></p>
+         <p><label for="maxvysota">Высота (м):</label>
+         <input name="maxvysota" type="text_forma" value="" /></p>
+		<p><label for="cena">Оцените груз (сумма прописью в руб.): </label>
+         <input name="cena" type="text_forma" value="" /></p>
+            </div>
+         
+         <fieldset data-role="controlgroup" data-type="horizontal">
+         <legend>Выберете способ погрузки:</legend>
+         <label for="zd">Задний</label>
+          <input type="checkbox" name="sposob" id="zd" value="zd">
+          <label for="bok">Боковой</label>
+          <input type="checkbox" name="sposob" id="bok" value="bok">
+          <label for="verh">Верхний</label>
+          <input type="checkbox" name="sposob" id="verh" value="verh" >
+                    </fieldset>
+                     
+                     <div data-role="fieldcontain">
+ <b>Информация об отправителе:</b>
+                    <p><label for="otpravitely" >Название организации или ФИО:</label>
+                    <input name="otpravitely" type="text_forma" value="" /></p>
+					<p><label for="tel">Телефон:</label>
+                    <input name="tel" type="text_forma" value="" /></p>
+                    <p><label for="kontakt_1">Контактное лицо:</label>
+					<input name="kontakt_1" type="text_forma" value="" /></p>
+                    <p><label for="Adres_1">Адрес забора груза в Санкт-Петербурге:</label>
+					<input name="Adres_1" type="text_forma" value="" /></p>
+                    <p><label for="t1">Режим работы: с</label>
+                       <input name="t1"  style="width: 50px" type="text_forma" value="" />
+                        <label for="t2" >до</label>
+        			   <input name="t2"   style="width: 50px" type="text_forma" value="" /></p>
+                        <p><label for="t3" >обед: с</label>
+         			   <input name="t3" type="text_forma" style="width: 50px" value="" />
+                       <label for="t4" >до</label>
+                       <input name="t4" type="text_forma" style="width: 50px" value="" /></p>
+						<p><label for="t5">Готовность груза: дата</label>                       
+                      <input name="t5" type="text_forma" value="" /></p>
+                     <p><label for="t6">Время:</label> 
+                      <input name="t6" type="text_forma" value="" /></p>
+                      </div>
+                       
+                       <div data-role="fieldcontain">
+ <b>Информация о получателе:</b>
+                   <p><label for="kontakt_2">Название организации или ФИО:</label>
+                   <input name="kontakt_2" type="text_forma" value="" /> </p>
+                   <p><label for="tel_2">Телефон:</label>
+                    <input name="tel_2" type="text_forma" value="" /></p>
+                    <p><label for="kontakt">Контактное лицо:</label>
+					<input name="kontakt" type="text_forma" value="" /></p>
+                   
+                    <fieldset data-role="controlgroup" data-type="horizontal">
+      <legend>Посылку доставить до дверей получателя?</legend>
+        <label for="yes">Да</label>
+        <input type="radio" name="dostavka" id="yes" value="yes">
+        <label for="no">Нет</label>
+        <input type="radio" name="dostavka" id="no" value="no">	
+      </fieldset>
+      <p><label for="dostavka_1">... если нужна доставка, укажите адрес:</label>
+      <input name="dostavka_1" type="text_forma" value=""/></p>
+						</div>
+ 
+ <div data-role="fieldcontain">
+ <b>Оплата перевозки:</b>
+   <fieldset data-role="fieldcontain">
+<label for="plat">Кто оплачивает перевозку?</label>
+<select name="plat" style="width:450px;">
+                      <option>Выберите из списка...</option>
+                      <option>Отправитель</option>
+                      <option>Получатель</option>
+                     <option>Другое лицо</option>
+                     <option>Отправитель-экспедирование, получатель перевозку</option>
+              </select></fieldset> 
+              
+				<p><label for="plat_1">Плательщик, в случае другое лицо:</label>
+				<input name="plat_1" type="text_forma" value="" /></p>
+                </div>
+                
+				 <div data-role="fieldcontain">
+ <b>Контактные данные:</b>
+				<p><label for="name" >Ваше имя:</label>
+				<input  name="name"   type="text_forma" value="" /></p>
+                <p><label for="email">Ваш e-mail:</label>
+                <input name="email" type="text_forma" value="" /></p>
+                <p><label for="phone">Ваш телефон:</label>
+                <input name="phone" type="text_forma" value="" /></p>           
+               <p><label for="comments">Комментарии, пожелания:</label>     
+              <textarea rows="5"  cols="50" class="text" name="comments"></textarea>
+              </div>
+      <input type="submit" value="Отправить"> 
+        </form>
+  </div>
+    </div>
+</body>
+</html>

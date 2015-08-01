@@ -1,0 +1,248 @@
+.tabss {
+	color: #333;
+    position: relative;
+	margin: 40px -10%;
+	width: 870px;
+	}
+.tabss input {
+	position: absolute;
+	z-index: 1000;
+	width: 120px;
+	height: 20px;
+	left: 0px;
+	top: 0px;
+	opacity: 0;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+	cursor: pointer;
+}
+.tabss input#tab-2{
+	top: 20px;
+}
+.tabss input#tab-3{
+	top: 40px;
+}
+.tabss input#tab-4{
+	top: 60px;
+}
+.tabss input#tab-5{
+	top: 80px;
+}
+.tabss input#tab-6{
+	top: 100px;
+}
+.tabss input#tab-7{
+	top: 120px;
+}
+.tabss input#tab-8{
+	top: 140px;
+}
+.tabss input#tab-9{
+	top: 160px;
+}
+.tabss input#tab-10{
+	top: 180px;
+}
+.tabss input#tab-11{
+	top: 200px;
+}
+.tabss input#tab-12{
+	top: 220px;
+}
+.tabss input#tab-13{
+	top: 240px;
+}
+.tabss input#tab-14{
+	top: 260px;
+}
+.tabss input#tab-15{
+	top: 280px;
+}
+.tabss input#tab-16{
+	top: 300px;
+}
+.tabss input#tab-17{
+	top: 320px;
+}
+.tabss input#tab-18{
+	top: 340px;
+}
+.tabss input#tab-19{
+	top: 360px;
+}
+.tabss input#tab-20{
+	top: 380px;
+}
+.tabss input#tab-21{
+	top: 400px;
+}
+.tabss label {
+	font-size: 15px;
+	line-height: 20px;
+	height: 20px;
+	position: relative;
+	padding: 0 10px;
+	display: block;
+	width: 300px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: right;
+	float: left;
+	clear: both;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.3);
+}
+.tabss label:after {
+    content: '';
+	background: #fff;
+	position: absolute;
+	right: -2px;
+	top: 0;
+	width: 2px;
+	height: 100%;
+}
+.tabss input:hover + label {
+	background: #5ba4a4;
+}
+.tabs label:first-of-type {
+    z-index: 23;
+}
+.tab-label-2 {
+    z-index: 22;
+}
+.tab-label-3 {
+    z-index: 21;
+}
+.tab-label-4 {
+    z-index: 20;
+}
+.tab-label-5 {
+    z-index: 19;
+}
+.tab-label-6 {
+    z-index: 18;
+}
+.tab-label-7 {
+    z-index: 17;
+}
+.tab-label-8 {
+    z-index: 16;
+}
+.tab-label-9 {
+    z-index: 15;
+}
+
+.tab-label-10 {
+    z-index: 14;
+}
+.tab-label-11 {
+    z-index: 13;
+}
+
+.tab-label-12 {
+    z-index: 12;
+}
+.tab-label-13 {
+    z-index: 11;
+}
+
+.tab-label-14 {
+    z-index: 10;
+}
+.tab-label-15 {
+    z-index: 9;
+}
+.tab-label-16 {
+    z-index: 8;
+}
+.tab-label-17 {
+    z-index: 7;
+}
+.tab-label-18 {
+    z-index: 5;
+}
+.tab-label-19 {
+    z-index: 5;
+}
+.tab-label-20 {
+    z-index: 4;
+}
+.tab-label-21 {
+    z-index:3;
+}
+.tab-label-22 {
+    z-index:2;
+}
+.tabss input:checked + label {
+	z-index: 26;
+}
+.clear-shadows {
+	clear: both;
+}
+.content7 {
+   color: #333;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	position: relative;
+    width: auto;
+	margin: -400px 0 0 250px;
+	height: 750px;
+	z-index: 5;
+	overflow: hidden;
+}
+.content7 div {
+    position: absolute;
+	top:0px;
+	padding: 0px 40px;
+	z-index: 1;
+    opacity: 0;
+    -webkit-transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    transition: all linear 0.5s;
+}
+.tabss input.tab-selector-1:checked ~ .content7 .contents-1,
+.tabss input.tab-selector-2:checked ~ .content7 .contents-2,
+.tabss input.tab-selector-3:checked ~ .content7 .contents-3,
+.tabss input.tab-selector-4:checked ~ .content7 .contents-4,
+.tabss input.tab-selector-5:checked ~ .content7 .contents-5,
+.tabss input.tab-selector-6:checked ~ .content7 .contents-6,
+.tabss input.tab-selector-7:checked ~ .content7 .contents-7,
+.tabss input.tab-selector-8:checked ~ .content7 .contents-8,
+.tabss input.tab-selector-9:checked ~ .content7 .contents-9,
+.tabss input.tab-selector-10:checked ~ .content7 .contents-10,
+.tabss input.tab-selector-11:checked ~ .content7 .contents-11,
+.tabss input.tab-selector-12:checked ~ .content7 .contents-12,
+.tabss input.tab-selector-13:checked ~ .content7 .contents-13,
+.tabss input.tab-selector-14:checked ~ .content7 .contents-14,
+.tabss input.tab-selector-15:checked ~ .content7 .contents-15,
+.tabss input.tab-selector-16:checked ~ .content7 .contents-16,
+.tabss input.tab-selector-17:checked ~ .content7 .contents-17,
+.tabss input.tab-selector-18:checked ~ .content7 .contents-18,
+.tabss input.tab-selector-19:checked ~ .content7 .contents-19,
+.tabss input.tab-selector-20:checked ~ .content7 .contents-20,
+.tabss input.tab-selector-21:checked ~ .content7 .contents-21,
+.tabss input.tab-selector-22:checked ~ .content7 .contents-22{
+z-index: 100;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -webkit-transition: all ease-out 0.3s 0.3s;
+    -moz-transition: all ease-out 0.3s 0.3s;
+    -o-transition: all ease-out 0.3s 0.3s;
+    -ms-transition: all ease-out 0.3s 0.3s;
+    transition: all ease-out 0.3s 0.3s;
+}
+.content7 div b{
+	font-size: 22px;	
+	}
+.content7 div p {
+	font-size: 16px;
+	line-height: 22px;
+	text-align: left;
+	margin: 0;
+	color: #333;
+	padding-left: 40px;
+}

@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+.logo{
+	width:310px;
+	height:110px;
+	z-index:5;
+	position:relative;
+	top:5px;
+	background: url(../images2/Severtrans_logo_03.png) no-repeat;
+	}
+.car{ position:fixed;
+width:110px;
+height:100%;
+background: url(../images1/car_smol.png) no-repeat;
+float:left;}
+.centerText{ text-align:center !important;}
+
+    .a1 { display:none;}
+    .cellSize60 { width:60px; }
+
+    @media screen and (max-width: 600px) {
+        .a1 { display:inline-block;}
+        .a2 { display:none !important; width:0px;}

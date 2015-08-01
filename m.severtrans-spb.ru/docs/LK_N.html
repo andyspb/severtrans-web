@@ -1,0 +1,42 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title></title>
+	
+	<link rel="stylesheet" type="text/css"  href="css/style_form.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    
+</head>
+<body>
+<div class="logo1" style=" z-index:8;"></div>
+<div style="position:fixed; width:100%; height:90px; background:#FFF; z-index:5; top:-10px;">
+<h4 style="position: fixed; margin:60px 37%; width:700px;">СОЗДАНИЕ АККАУНТА</h4></div>
+<div style=" clear:left; ">  </div>
+<div id="car" style="float:left; z-index:5;">
+<div style="position:relative; left:165px; top:45%; float:left">
+<p><a href="index.html">Вернуться на сайт</a></p>
+</div>
+</div>
+<div style="position:relative; float:left; top:10%; left:10%;">
+      <form  method="post" action="mailKL_N.php" style="position:relative; z-index:4; left:350px; top:30px; font-size:12px;">
+				<p><label>Плательщик:</label></p><input type="text" class="form1"  name="name"/></p>
+				<p><label>ИНН:</label></p><input type="text" class="form1"  name="inn"/></p>
+                <p><label>e-mail:</label></p><input type="text" class="form1"  name="email"/></p>
+                <p><label>Пароль:</label></p><input type="text" class="form1"  name="parol"/></p>
+				<input id="check" name="check" type="hidden" value="" />
+                
+					<input type="submit" value="Создать" 
+onclick="document.getElementById('check').value = 'stopSpam';" />
+			
+            </form>
+            
+</div>
+			
+      
+    
+
+	
+</body>
+</html>

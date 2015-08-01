@@ -1,0 +1,147 @@
+.tabs {
+	width:700px;
+	}
+#tabs{
+	width:200px;
+	height:150px;
+	}
+.tabs input {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
+	z-index: 200;
+	width: 100px;
+	height: 40px;
+	cursor: pointer;
+}
+
+.tabs input#tab_2 {
+	left:200px;
+}
+
+.tabs input#tab_3 {
+	left: 550px;
+}
+
+.tabs input#tab_4 {
+	left: 700px;
+}
+
+.tabs label {
+	background:#9e9c9c;
+	font: 14px/12px  Arial, Helvetica, sans-serif;
+	height: 40px;
+	position: relative;
+	padding: 0 20px;
+	float: left;
+	display: block;
+	color: #fff;
+	width: 180px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: center;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 2px 0 2px rgba(0,0,0,0.1), -2px 0 2px rgba(0,0,0,0.1);
+}
+
+.tabs input:hover + label {
+	background: #5e646c;
+}
+
+.tabs label:first-of-type {
+	z-index: 4;
+	box-shadow: 2px 0 2px rgba(0,0,0,0.1);
+}
+
+.tab_label_2 {
+	z-index: 3;
+}
+
+.tab_label_3 {
+	z-index: 2;
+}
+
+.tab_label_4 {
+	z-index: 1;
+}
+
+.tabs label:after {
+	content: '';
+	background: #96a7aa;
+	position: absolute;
+	bottom: -2px;
+	left: 0px;
+	width: 100%;
+	height: 2px;
+	display: block;
+}
+
+.tabs input:checked + label {
+	background: #eeeadb;
+	z-index: 6;
+	color: #333;
+}
+
+.content {
+    background: url(../images/slide12/notebook.png);
+    position: relative;
+    width:800px;
+    height:490px;
+    z-index: 5;
+    box-shadow: 0 -2px 3px -2px rgba(0,0,0,0.2), 0 2px 2px rgba(0,0,0,0.1);
+    border-radius: 0 3px 3px 3px;
+	top: 40px;
+}
+
+.content div {
+    position: absolute;
+    top: 18px;
+    left: 0;
+	width:700px;
+	z-index: 1;
+    opacity: 0;
+    transition: all linear 0.1s;
+	float:left;
+}
+ 
+
+.content div p {
+    font-size: 18px;
+    line-height: 18px;
+    margin: 0;
+    color: #333;
+    padding-left: 2px;
+    font-family: Impact;
+	width:500px;
+	float:left;
+}
+.content div p1 {
+    font-size: 14px;
+    line-height: 18px;
+    font-style: normal;
+    text-align: left;
+	color: #666;
+    font-family: Arial, Helvetica, sans-serif;
+	width:510px;
+	float:left;
+}
+
+.tabs input.tab_selector_1:checked ~ .content .content_1,
+.tabs input.tab_selector_2:checked ~ .content .content_2,
+.tabs input.tab_selector_3:checked ~ .content .content_3,
+.tabs input.tab_selector_4:checked ~ .content .content_4 {
+    z-index: 10;
+    opacity: 1;
+	-moz-transition: all ease-out 0.2s 0.1s;
+	-o-transition: all ease-out 0.2s 0.1s;
+	-webkit-transition: all ease-out 0.2s 0.1s;
+    transition: all ease-out 0.2s 0.1s;
+}
+.text_forma {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:center;
+	color: #000;
+	font-size:13px;
+	background:#FFF;
+}

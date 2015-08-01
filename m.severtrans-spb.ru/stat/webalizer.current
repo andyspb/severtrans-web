@@ -1,0 +1,685 @@
+# Webalizer V2.23-05 Incremental Data - 07/03/2015 23:41:57
+2015 7 3 23 41 57
+1180 1086 90 22 17 60 75094553 103 82 0
+33 2 83 1 3
+480 426 29863163 34 40 28
+317 284 19250085 33 34 27
+383 376 25981305 33 29 27
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+27 22 1460804 2
+1 1 98141 1
+39 39 2730044 3
+3 2 197798 2
+1 1 98141 1
+1 1 98141 1
+2 2 196282 2
+21 21 1459654 2
+79 79 5432568 4
+141 141 9649119 7
+66 64 4487588 8
+93 66 4412180 6
+161 142 9934933 10
+83 82 5749575 7
+81 79 5544825 5
+24 2 197798 2
+67 65 4548629 9
+62 61 4095373 4
+76 74 5368979 4
+66 65 4407948 8
+5 4 200098 2
+27 23 1467818 2
+33 29 1879118 8
+21 21 1378999 3
+0
+0
+0
+1086
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+65
+0
+0
+0
+0
+0
+0
+29
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/images2/2.png
+1 58 0 15469693 0 0
+/js1/kalk.js
+0 60 0 588445 0 0
+/images2/map/Uhta.png
+1 58 0 2514380 0 0
+/favicon.ico
+0 36 0 39100 0 0
+/images2/map/Petrozav.png
+1 58 0 3993948 0 0
+/images2/map/Murmansk.png
+1 54 0 1622820 0 0
+/images2/Severtrans_logo_03.png
+1 48 0 336582 0 0
+/images2/map/Kirov.png
+1 56 0 4605647 0 0
+/LK1.php
+0 9 0 9450 0 0
+/images2/map/Apatity.png
+1 56 0 1916928 0 0
+/Anketa.html
+0 12 0 111816 8 4
+/images2/map/Arh.png
+1 56 0 5723744 0 0
+/images2/map/Kotlas.png
+1 55 0 4927312 0 0
+/images2/map/Moncheg.png
+1 55 0 1479036 0 0
+/
+0 91 0 8930831 74 10
+/images2/map/Kandalaksha.png
+1 55 0 3729544 0 0
+/images2/map/Vologda.png
+1 55 0 3293212 0 0
+/images2/map/Syktyvkar.png
+1 56 0 3233880 0 0
+/images2/map/Perm_1.png
+1 53 0 3409400 0 0
+/css1/styles.css
+0 61 0 24360 0 0
+/images2/map/Velsk.png
+1 55 0 841568 0 0
+/images2/map/N-N.png
+1 54 0 8248893 0 0
+# End Of Table - urls
+# -sites- (monthly)
+188.244.133.27
+0 5 3 111541 1 1435838538
+/Anketa.html
+217.66.157.57
+0 20 20 1458504 1 1435834164
+/
+78.25.123.95
+0 19 19 1360363 1 1435928713
+/
+82.145.223.78
+0 1 1 1150 0 0
+-
+94.140.237.248
+0 20 20 1361513 1 1435944938
+/
+95.54.239.22
+0 19 19 1360363 1 1435947927
+/
+217.69.133.5
+0 1 1 9318 1 1435866899
+/Anketa.html
+88.81.57.29
+0 19 19 1360363 1 1435716527
+/
+208.115.113.92
+0 2 1 99657 1 1435765171
+/
+78.25.121.114
+0 19 19 1360363 1 1435842774
+/
+37.29.74.194
+0 20 20 1361513 1 1435941176
+/
+178.63.13.15
+0 2 1 10834 1 1435877080
+/Anketa.html
+82.145.223.19
+0 21 21 1462632 0 0
+-
+94.140.240.10
+0 20 20 1361513 1 1435913370
+/
+66.249.81.248
+0 14 14 681282 0 0
+-
+80.246.243.122
+0 20 20 1361513 1 1435940071
+/
+213.87.225.232
+0 12 12 909427 1 1435942696
+/
+217.66.158.90
+0 19 19 1360363 1 1435776643
+/
+5.255.253.239
+0 3 2 20152 2 1435962612
+/Anketa.html
+217.69.133.194
+0 1 0 1516 0 0
+-
+66.249.78.225
+0 2 0 3032 0 0
+-
+82.145.217.23
+0 1 1 1150 0 0
+-
+82.145.219.8
+0 1 1 1150 0 0
+-
+37.29.48.134
+0 20 20 1361513 1 1435837243
+/
+82.145.217.120
+0 1 1 1150 0 0
+-
+185.26.180.75
+0 1 1 1150 0 0
+-
+95.52.15.53
+0 38 21 1459654 1 1435841888
+/
+141.0.14.6
+0 44 22 1384200 0 0
+-
+85.25.195.134
+0 1 1 98141 1 1435730581
+/
+207.46.13.66
+0 2 1 99657 1 1435758860
+/
+78.25.120.238
+0 19 19 1360363 1 1435929342
+/
+66.249.81.245
+0 9 9 692652 0 0
+-
+188.244.132.74
+0 20 20 1458504 1 1435927346
+/
+183.79.222.1
+0 2 1 99657 1 1435894098
+/
+89.178.58.132
+0 19 19 1360363 1 1435761728
+/
+194.186.129.230
+0 1 1 98141 1 1435843595
+/
+157.55.39.7
+0 1 1 98141 1 1435834005
+/
+78.36.15.15
+0 20 20 1361513 1 1435838895
+/
+78.25.123.192
+0 37 37 2652538 2 1435952302
+/
+Invalid
+0 11 9 700387 3 1435920987
+/
+82.145.220.24
+0 21 21 1383050 0 0
+-
+66.249.78.237
+0 2 1 2566 0 0
+-
+82.145.211.85
+0 1 1 1150 0 0
+-
+141.0.15.130
+0 1 1 1150 0 0
+-
+188.243.200.46
+0 28 26 1759309 1 1435788741
+/
+95.84.248.7
+0 19 19 1360363 1 1435716514
+/
+217.118.78.118
+0 20 20 1361513 1 1435744739
+/
+95.108.158.233
+0 4 3 198848 1 1435769409
+/
+178.65.214.136
+0 27 23 1467818 1 1435871036
+/
+182.118.55.56
+0 3 3 109275 1 1435843208
+/
+157.55.39.210
+0 1 1 98141 1 1435885797
+/
+178.168.184.136
+0 38 38 2714559 2 1435924547
+/
+78.25.120.254
+0 2 0 3032 0 0
+-
+217.66.157.91
+0 20 20 1361513 1 1435857079
+/
+95.54.192.46
+0 20 20 1361513 1 1435742528
+/
+182.118.57.227
+0 3 3 109275 1 1435951202
+/
+78.25.122.250
+0 20 20 1458504 2 1435830438
+/
+91.122.143.98
+0 20 20 1361513 1 1435908920
+/
+78.25.122.82
+0 19 19 1360363 1 1435931624
+/
+82.145.223.35
+0 1 1 1150 0 0
+-
+94.181.180.194
+0 1 1 98141 1 1435809322
+/
+5.255.253.219
+0 3 3 27954 3 1435966917
+/Anketa.html
+188.187.45.114
+0 19 19 1360363 1 1435795773
+/
+217.69.133.203
+0 1 1 1050 0 0
+-
+89.223.47.216
+0 6 1 98141 1 1435797725
+/
+217.66.157.48
+0 19 19 1360363 1 1435841545
+/
+207.46.13.101
+0 2 1 99657 1 1435904189
+/
+94.25.236.232
+0 22 20 1364445 1 1435760164
+/
+207.46.13.87
+0 2 1 99657 1 1435791364
+/
+78.81.152.154
+0 23 23 1567113 2 1435866069
+/
+66.249.78.231
+0 3 2 100092 1 1435781603
+/
+82.145.219.179
+0 1 1 1150 0 0
+-
+217.66.152.11
+0 19 19 1360363 1 1435740204
+/
+141.0.13.193
+0 1 1 1150 0 0
+-
+85.26.165.230
+0 20 20 1361513 1 1435760986
+/
+83.69.0.58
+0 20 20 1361513 1 1435944740
+/
+66.249.81.242
+0 15 15 1152810 0 0
+-
+78.25.122.54
+0 42 21 1556645 1 1435763036
+/
+46.242.10.86
+0 1 1 98141 1 1435726115
+/
+46.17.203.253
+0 2 1 99657 1 1435854772
+/
+178.252.127.236
+0 1 1 98141 1 1435868736
+/
+95.161.239.223
+0 63 63 4862623 6 1435824839
+/
+78.25.120.197
+0 20 20 1369681 1 1435831356
+/Anketa.html
+217.118.78.106
+0 19 19 1360363 1 1435778097
+/
+46.32.67.118
+0 19 19 1360363 1 1435745539
+/
+87.254.148.239
+0 19 19 1360363 1 1435926566
+/
+78.25.122.174
+0 19 19 1360363 1 1435793965
+/
+217.69.133.3
+0 1 0 1516 0 0
+-
+157.55.39.3
+0 1 1 9318 1 1435803637
+/Anketa.html
+78.25.123.96
+0 19 19 1360363 1 1435926485
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+78.25.123.95
+0 19 19 1360363 1 1435928713
+/
+94.140.237.248
+0 20 20 1361513 1 1435944938
+/
+95.54.239.22
+0 19 19 1360363 1 1435947927
+/
+37.29.74.194
+0 20 20 1361513 1 1435941176
+/
+94.140.240.10
+0 20 20 1361513 1 1435913370
+/
+66.249.81.248
+0 10 10 498299 0 0
+-
+80.246.243.122
+0 20 20 1361513 1 1435940071
+/
+213.87.225.232
+0 12 12 909427 1 1435942696
+/
+5.255.253.239
+0 1 1 9318 1 1435962612
+/Anketa.html
+66.249.78.225
+0 1 0 1516 0 0
+-
+82.145.217.120
+0 1 1 1150 0 0
+-
+78.25.120.238
+0 19 19 1360363 1 1435929342
+/
+66.249.81.245
+0 4 4 493727 0 0
+-
+188.244.132.74
+0 20 20 1458504 1 1435927346
+/
+183.79.222.1
+0 2 1 99657 1 1435894098
+/
+78.25.123.192
+0 37 37 2652538 2 1435952302
+/
+Invalid
+0 2 2 196282 1 1435920987
+/
+66.249.78.237
+0 2 1 2566 0 0
+-
+141.0.15.130
+0 1 1 1150 0 0
+-
+95.108.158.233
+0 1 0 1516 0 0
+-
+157.55.39.210
+0 1 1 98141 1 1435885797
+/
+178.168.184.136
+0 38 38 2714559 2 1435924547
+/
+78.25.120.254
+0 2 0 3032 0 0
+-
+182.118.57.227
+0 3 3 109275 1 1435951202
+/
+91.122.143.98
+0 20 20 1361513 1 1435908920
+/
+78.25.122.82
+0 19 19 1360363 1 1435931624
+/
+5.255.253.219
+0 3 3 27954 3 1435966917
+/Anketa.html
+207.46.13.101
+0 1 1 98141 1 1435904189
+/
+66.249.78.231
+0 2 1 1951 0 0
+-
+83.69.0.58
+0 20 20 1361513 1 1435944740
+/
+66.249.81.242
+0 5 5 271346 0 0
+-
+87.254.148.239
+0 19 19 1360363 1 1435926566
+/
+78.25.123.96
+0 19 19 1360363 1 1435926485
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://m.severtrans-spb.ru/Anketa.html
+0 1
+http://www.severtrans-spb.ru/
+0 52
+http://m.severtrans-spb.ru/
+0 1012
+http://m.severtrans-spb.ru/index.html
+0 1
+- (Direct Request)
+0 62
+http://www.severtrans-spb.ru/index.html
+0 2
+http://www.google.by/search?hl=ru&redir_esc=&client=ms-android-samsung&source=android-search-app&v=133247963&qsubts=1435902145035&q=севертранс&v=133247963
+0 1
+http://ru.search.yahoo.com/search?p=север+транс&fr=iphone&.tsrc=apple&pcarrier=MTS+RUS&pmcc=250&pmnc=01
+0 1
+http://r.search.yahoo.com/_ylt=A9mSs3X3EZRV6IcAhMSBuhc5;_ylu=X3oDMTByaW11dnNvBGNvbG8DaXIyBHBvcwMxBHZ0aWQDBHNlYwNzcg--/RV=2/RE=1435796088/RO=10/RU=http://m.severtrans-spb.ru//RK=0/RS=Xz6zdGy7xvTslhZbVNHM6WqIDHo-
+0 2
+http://severtrans-spb.ru/
+0 4
+http://ru.search.yahoo.com/search?p=севертранс&fr=iphone&.tsrc=apple&pcarrier=MTS+RUS&pmcc=250&pmnc=01
+0 1
+http://r.search.yahoo.com/_ylt=A9mSs3BLXpZVO78AYdaBuhc5;_ylu=X3oDMTByaW11dnNvBGNvbG8DaXIyBHBvcwMxBHZ0aWQDBHNlYwNzcg--/RV=2/RE=1435946700/RO=10/RU=http://m.severtrans-spb.ru//RK=0/RS=NwV60T.IAAyw3AY.BX18JmwfLtU-
+0 1
+https://www.google.ru/
+0 11
+http://m.severtrans-spb.ru/LK1.php
+0 13
+http://m.severtrans-spb.ru/css1/styles.css
+0 14
+http://www.google.ru/url?sa=t&source=web&cd=3&ved=0CCMQFjAC&url=http://m.severtrans-spb.ru/&rct=j&q=как отправить багаж с питера в ухту&ei=-RCWVeuaNcebsAH4iYHQDA&usg=AFQjCNFTLAjrqthHLj-m1E48AqWOQUPm-A&cad=rjt
+0 1
+http://www.google.ru/url?sa=t&source=web&cd=16&ved=0CD4QFjAP&url=http://m.severtrans-spb.ru/&rct=j&q=севертранс&ei=YCKWVb_KMoHjywPpubSADQ&usg=AFQjCNFTLAjrqthHLj-m1E48AqWOQUPm-A&cad=rjt
+0 1
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (iPad; CPU OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B466 Safari/600.1
+0 83
+Mozilla/5.0 (Linux; U; Android 2.3.6; ru-ru; GT-S7500 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mo
+0 38
+Mozilla/5.0 (Linux; Android 4.4.2; ru-ru; SAMSUNG GT-I9192 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 C
+0 20
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36
+0 20
+Opera/9.80 (Android; Opera Mini/10.0.1884/36.2464; U; ru) Presto/2.12.423 Version/12.16
+0 56
+Mozilla/5.0 (Linux; Android 5.0; SM-N9005 Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Saf
+0 47
+Mozilla/5.0 (compatible; DotBot/1.1; http://www.opensiteexplorer.org/dotbot, help@moz.com)
+0 2
+Mozilla/5.0 (Linux; U; Android 4.0.3; ru-ru; GT-P3110 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari
+0 38
+Mozilla/5.0 (Linux; Android 4.2.2; ZP990+ Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.78 Mobile Safa
+0 20
+Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B554a S
+0 19
+Y!J-ASR/0.1 crawler (http://www.yahoo-help.jp/app/answers/detail/p/595/a_id/42716/)
+0 2
+Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari
+0 78
+Opera/9.80 (Android; Opera Mini/7.5.33370/36.2534; U; ru) Presto/2.12.423 Version/12.16
+0 1
+okhttp/2.3.0
+0 1
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 7
+Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+0 9
+Mozilla/5.0 (Linux; Android 4.4.4; MFLogin3T Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.135 Safari
+0 20
+Opera/9.80 (Series 60; Opera Mini/7.1.32444/36.2464; U; ru) Presto/2.12.423 Version/12.16
+0 22
+Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A501 Sa
+0 22
+Mozilla/5.0 (iPad; CPU OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F69 Safari/600.1.4
+0 77
+Mozilla/5.0 (Android; Mobile; rv:38.0) Gecko/38.0 Firefox/38.0
+0 19
+Mozilla/5.0 (Linux; Android 4.2.1; W200 Build/JOP40D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safar
+0 21
+Mozilla/5.0 (Android; Mobile; rv:38.0.5) Gecko/38.0.5 Firefox/38.0.5
+0 1
+Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D257 Sa
+0 38
+Mozilla/5.0 (Linux; U; Android 4.4.2; ru-ru; LG-V490 Build/KOT49I.A1415344977) AppleWebKit/537.16 (KHTML, like Gecko) Version
+0 27
+Mozilla/5.0 (Linux; Android 4.1.2; GT-S7262 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.94 Mobile S
+0 12
+Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12D508 Safar
+0 19
+Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safa
+0 3
+My Nutch Spider/Nutch-1.6
+0 2
+Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) GSA/6.0.51363 Mobile/12F70 Safa
+0 19
+Mozilla/5.0 (compatible; MJ12bot/v1.4.5; http://www.majestic12.co.uk/bot.php?+)
+0 2
+Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X; en-us) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A4
+0 3
+Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/43.0.2357.61 Mobile/12F70
+0 20
+Mozilla/5.0 (Linux; U; Android 4.0.4; Lenovo S720; 480*800; CTC/2.0) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobil
+0 20
+Opera/9.80 (Android; Opera Mini/10.0.1884/36.2534; U; ru) Presto/2.12.423 Version/12.16
+0 2
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+0 1
+Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B466 Saf
+0 19
+Opera/9.80 (Android; Opera Mini/7.5.32193/36.2464; U; ru) Presto/2.12.423 Version/12.16
+0 1
+Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+0 10
+Mozilla/5.0 (Linux; Android 4.4.4; 5042D Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safa
+0 20
+Mozilla/5.0 (Linux; Android 5.0.2; D6633 Build/23.1.1.E.0.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobil
+0 27
+Mozilla/5.0 (Linux; Android 4.1.1; ALCATEL ONE TOUCH 4030D Build/JRO03C) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1
+0 2
+Opera/9.80 (Android; Opera Mini/7.5.33370/36.2464; U; ru) Presto/2.12.423 Version/12.16
+0 22
+Mozilla/5.0 (Linux; Android 5.0.1; GT-I9505 Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile S
+0 20
+Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/2.0; +http://go.mail.ru/help/robots)
+0 4
+Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D167 Safa
+0 18
+Mozilla/5.0 (Linux; U; Android 4.1.2; ru-ru; SAMSUNG GT-I9100/I9100XWLSD Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko)
+0 20
+Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/43.0.2357.61 Mobile/12H14
+0 6
+Opera/9.80 (Android; Opera Mini/6.5.26560/28.2555; U; ru) Presto/2.8.119 Version/11.10
+0 19
+Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Lumia 610)
+0 19
+Mozilla/5.0 (Windows NT 6.2; WOW64; rv:17.0) Gecko/20100101 Firefox/17.0
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; InfoPath.2)
+0 1
+Mozilla/5.0 (Linux; Android 5.0.2; D5322 Build/19.3.A.0.472) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobil
+0 20
+Mozilla/5.0 (iPad; CPU OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D201 Safari/9537
+0 20
+Mozilla/5.0 (Linux; Android 4.4.2; SM-G800H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrows
+0 38
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2427.7 Safari/537.36
+0 23
+Mozilla/5.0 (Linux; Android 4.4.2; 6037K Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.109 Mobile Saf
+0 20
+Mozilla/5.0 (Linux; Android 5.0.2; HTC One dual sim Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 
+0 20
+Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safa
+0 19
+Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0
+0 20
+# End Of Table - agents
+# -search strings- 
+севертранс
+1
+север транс
+1
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames
